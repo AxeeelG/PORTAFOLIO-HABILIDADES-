@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio de Axel Yahir, desarrollador Java Full Stack Jr.">
+  <title>Axel Yahir | Portafolio Java Full Stack Jr.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Axel Yahir, inicio"><span class="brand-mark">&lt;/&gt;</span><span><strong>Axel Yahir</strong><small>Desarrollador Java Full Stack Jr.</small></span></a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="#inicio" data-section="inicio">Inicio</a><a href="#proyectos" data-section="proyectos">Proyectos</a><a href="#sobre-mi" data-section="sobre-mi">Sobre mí</a><a href="#habilidades" data-section="habilidades">Habilidades</a><a href="#formacion" data-section="formacion">Formación</a><a href="#cv" data-section="cv">CV</a><a href="#contacto" data-section="contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> PORTAFOLIO · 2026</p>
+        <h1 id="hero-title">Ideas que conectan.<br><span>Soluciones que construyen.</span></h1>
+        <p class="hero-text">Desarrollo software con curiosidad, pensamiento lógico y aprendizaje constante. Explora mis proyectos y las habilidades que estoy construyendo.</p>
+        <div class="hero-actions"><a class="button primary" href="#proyectos">Explorar proyectos <span>↗</span></a><a class="button ghost" href="#sobre-mi">Conóceme</a></div>
+      </div>
+      <div class="board-wrap" aria-label="Motherboard interactiva: activa los módulos con el puntero o seleccionándolos">
+        <div class="board">
+          <svg class="circuit-lines" viewBox="0 0 900 600" aria-hidden="true"><path d="M450 280 L450 92 L270 92 L270 45 M450 280 L650 280 L650 120 L790 120 M450 330 L450 505 L270 505 L270 560 M450 330 L700 410 L820 410 M330 300 L160 300 L160 160 L80 160 M570 300 L780 300 L780 500 L840 500"/><path d="M270 92 L270 170 L180 170 M650 120 L560 120 L560 170 M270 505 L270 420 L150 420 M700 410 L620 470 L620 530"/></svg>
+          <div class="board-title">NÚCLEO / PORTAFOLIO <span>SYS-01</span></div>
+          <button class="module module-home" data-module="inicio" aria-label="Abrir Inicio"><span class="module-icon">⌂</span><span class="module-label">INICIO</span></button>
+          <button class="module module-about" data-module="sobre-mi" aria-label="Abrir Sobre mí"><span class="module-icon">◉</span><span class="module-label">SOBRE MÍ</span></button>
+          <button class="module module-contact" data-module="contacto" aria-label="Abrir Contacto"><span class="module-icon">✉</span><span class="module-label">CONTACTO</span></button>
+          <button class="module module-formation" data-module="formacion" aria-label="Abrir Formación"><span class="module-icon">▤</span><span class="module-label">FORMACIÓN</span></button>
+          <button class="module module-cv" data-module="cv" aria-label="Abrir CV"><span class="module-icon">▣</span><span class="module-label">CV</span></button>
+          <button class="module module-skills" data-module="habilidades" aria-label="Abrir Habilidades"><span class="module-icon">⌘</span><span class="module-label">HABILIDADES</span></button>
+          <button class="module module-projects" data-module="proyectos" aria-label="Abrir Proyectos"><span class="module-icon">▦</span><span class="module-label">PROYECTOS</span></button>
+          <div class="core" aria-label="Núcleo principal iluminado"><span>&lt;/&gt;</span><small>CORE ACTIVE</small></div>
+          <div class="project-racks" aria-label="Servidores de proyectos"><button class="rack rack-era" data-project="era" aria-label="Abrir proyecto Era"><span class="rack-icon">&lt;/&gt;</span><span>ERA</span><i></i></button><button class="rack rack-haka" data-project="hakashoes" aria-label="Abrir proyecto HakaShoes"><span class="rack-icon">👟</span><span>HAKASHOES</span><i></i></button><button class="rack rack-bip" data-project="bipbip" aria-label="Abrir proyecto Bip Bip Papel"><span class="rack-icon">🕊</span><span>BIP BIP PAPEL</span><i></i></button></div>
+          <div class="skills-shelf" data-module="habilidades" role="button" tabindex="0" aria-label="Abrir Habilidades"><span class="shelf-title">SKILL STORAGE</span><div class="skill-cubes"><span class="skill-cube">JS</span><span class="skill-cube">HTML</span><span class="skill-cube">CSS</span><span class="skill-cube">PY</span><span class="skill-cube">GH</span></div><div class="java-arm" title="Java en desarrollo"><span class="arm-joint"></span><span class="java-cube">JAVA</span><span class="arm-label">EN PROCESO</span></div></div>
+          <div class="board-foot"><span>INTERACTIVE SYSTEM</span><span>HOVER / SELECT MODULE</span></div>
+        </div>
+      </div>
+      <p class="interaction-hint"><span>↗</span> Pasa el cursor o selecciona un módulo para activarlo.</p>
+    </section>
+
+
+    <section class="content-section" id="proyectos" data-content-section>
+      <div class="section-heading"><p class="eyebrow">01 / WORKSPACE</p><h2>Proyectos</h2><p>Explora los módulos para conocer el objetivo, mi participación y las habilidades aplicadas.</p></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-art sneaker">♟</div><div class="project-meta"><span>COLABORATIVO · E-COMMERCE</span><h3>HakaShoes</h3><p>Landing de tienda de calzado para un hackathon. Participé en la navegación y en la funcionalidad del carrito.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span></div><button class="text-link" data-open-project="hakashoes">Ver ficha <b>↗</b></button></div></article>
+        <article class="project-card"><div class="project-art code">&lt;/&gt;</div><div class="project-meta"><span>LABORATORIO · JAVASCRIPT</span><h3>Era</h3><p>Proyecto de práctica de programación con conceptos de clases, objetos y ejercicios interactivos.</p><div class="tags"><span>JavaScript</span><span>HTML</span><span>CSS</span><span>Git</span></div><button class="text-link" data-open-project="era">Ver ficha <b>↗</b></button></div></article>
+        <article class="project-card"><div class="project-art origami">折</div><div class="project-meta"><span>DISEÑO DE PRODUCTO · FIGMA</span><h3>Bip Bip Papel</h3><p>Diseño de experiencia para una tienda de regalos y papelería con personalización de productos.</p><div class="tags"><span>Figma</span><span>UI</span><span>UX</span><span>Prototipado</span></div><button class="text-link" data-open-project="bipbip">Ver ficha <b>↗</b></button></div></article>
+      </div>
+      <p class="note">Las descripciones resumen la participación conocida. Repositorios, capturas y vistas reales se añadirán cuando se verifiquen sus enlaces y evidencias.</p>
+    </section>
+
+    <section class="content-section two-column" id="sobre-mi" data-content-section><div class="section-heading"><p class="eyebrow">02 / PROFILE</p><h2>Sobre mí</h2></div><div class="panel prose"><p>Soy desarrollador Java Full Stack Jr. en formación, con una trayectoria previa en construcción que fortaleció mi atención al detalle, disciplina y resolución práctica de problemas.</p><p>Actualmente desarrollo mis habilidades en programación, interfaces web, lógica y trabajo colaborativo. Me interesa comprender cómo se estructuran las soluciones y seguir creciendo hacia el diseño y la arquitectura de software.</p><p>Utilizo herramientas de IA como apoyo para investigar, organizar y revisar, procurando comprender y validar las soluciones en lugar de depender ciegamente de sus resultados.</p></div></section>
+
+    <section class="content-section" id="habilidades" data-content-section><div class="section-heading"><p class="eyebrow">03 / TOOLKIT</p><h2>Habilidades</h2><p>Tecnologías y conocimientos de mi formación. La estantería representa habilidades en desarrollo; Java se muestra separado como tecnología que sigo fortaleciendo.</p></div><div class="skills-layout"><div class="skill-panel"><h3>Conocimientos</h3><div class="skill-list"><span>Java</span><span>JavaScript</span><span>Python</span><span>HTML</span><span>CSS</span><span>C</span><span>C++</span><span>Bootstrap 5</span><span>Git</span><span>GitHub</span><span>IA responsable</span></div></div><div class="skill-panel progress-panel"><div class="robot-arm-art"><span class="arm-base"></span><span class="arm-segment"></span><span class="arm-node"></span><span class="java-floating">Java</span></div><h3>Java</h3><p>En formación y práctica continua</p><span class="progress-caption">SKILL IN PROGRESS</span></div></div></section>
+    <section class="content-section two-column" id="formacion" data-content-section><div class="section-heading"><p class="eyebrow">04 / LEARNING</p><h2>Formación</h2></div><div class="panel timeline"><div><span class="timeline-date">EN CURSO</span><h3>Generation México</h3><p>Bootcamp Java Full Stack</p></div><div><span class="timeline-date">FORMACIÓN UNIVERSITARIA</span><h3>Universidad Autónoma Metropolitana (UAM)</h3><p>Arquitectura — estudios no concluidos</p></div><div><span class="timeline-date">CURSOS</span><h3>Fundamentos y desarrollo de software</h3><p>Curso introductorio de Java (Accenture) y formación en desarrollo de software.</p></div></div></section>
+    <section class="content-section two-column" id="cv" data-content-section><div class="section-heading"><p class="eyebrow">05 / DOCUMENT</p><h2>CV</h2><p>Mi currículum original de Generation, sin alterar su formato.</p></div><div class="panel cv-panel"><div class="cv-icon">PDF</div><div><h3>CV · Axel Yahir</h3><p>Desarrollador Java Full Stack Jr.</p><a class="button primary small" href="CV_Generation_Original.pdf" download>Descargar CV original <span>↓</span></a></div></div></section>
+    <section class="content-section contact-section" id="contacto" data-content-section><div class="section-heading"><p class="eyebrow">06 / CONNECT</p><h2>Contacto</h2><p>Disponible para oportunidades de desarrollo junior, prácticas y colaboración.</p></div><div class="panel contact-panel"><a href="mailto:Axel.garcia.rdez@gmail.com"><span>EMAIL</span><strong>Axel.garcia.rdez@gmail.com</strong><b>↗</b></a><div class="contact-note">LinkedIn y repositorios se añadirán con sus enlaces verificados.</div></div></section>
+  </main>
+  <footer><span>AXEL YAHIR · PORTAFOLIO</span><span>Diseñado para crecer, código a código.</span></footer>
+
+  <dialog class="project-dialog" id="project-dialog"><button class="dialog-close" aria-label="Cerrar">×</button><div id="dialog-content"></div></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
