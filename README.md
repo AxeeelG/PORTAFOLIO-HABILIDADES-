@@ -9,13 +9,6 @@ Portfolio static site intended for GitHub Pages. Entry point: `index.html`.
 - `CV_Generation_Original.pdf`: original Generation CV, kept unchanged.
 - `assets/referencia_visual.png`: approved visual reference (not used as a fake webpage screenshot).
 
-## Deploy on GitHub Pages
-1. Create a new repository and upload all contents of this folder (not the folder wrapper itself).
-2. Open repository Settings → Pages.
-3. Under Build and deployment, choose Deploy from a branch.
-4. Select `main` and `/ (root)` then Save.
-5. Wait for GitHub Pages to publish and open the provided URL.
-
 ## Known limitations / verification notes
 - Project repositories, external live previews, and actual screenshots are not linked yet because their URLs and assets must be confirmed.
 - Project text is based on known context and is marked for source verification before being treated as final.
